@@ -54,7 +54,7 @@ img#innerLogo {
   border-radius: 100%;
   margin-bottom: 20px;
 }
-#context h3 {
+#context h3.text-center {
   margin: 50px;
 }
 
@@ -112,7 +112,7 @@ p#imgText {
 }
 
 .detail-outer {
-  margin: 0px 30px;
+  max-width: 100%;
 }
 
 #lastParty .detail-outer h3 {
