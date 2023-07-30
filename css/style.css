@@ -1,0 +1,132 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#mainPage {
+  background-color: #d9d6d9;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+#mainPage h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+
+#mainPage .intro_p {
+  font-size: 23px;
+}
+
+#mainPage .intro_btn {
+  margin-top: 30px;
+  background: #f05f5c;
+  border-color: #f05f5c;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+header img {
+  width: 150px;
+  max-width: 100%;
+}
+
+header .nav-link {
+  margin: 20px 20px 0px 0px;
+  font-size: 16px;
+}
+
+#navbarSupportedContent ul li a {
+  color: #7f7f7f;
+}
+
+img#innerLogo {
+  width: 100px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+#context h3 {
+  margin: 50px;
+}
+
+#context p {
+  color: #7f7f7f;
+  margin-bottom: 30px;
+}
+
+#context p.context_p {
+  color: black;
+  font-size: 21px;
+}
+
+p#imgText {
+  color: black;
+}
+#lastParty {
+  height: 100vh;
+  background-color: rgb(248, 248, 248);
+}
+
+#lastParty h3 {
+  margin: 80px 0px;
+}
+#lastParty .partybg {
+  width: 300px;
+}
+
+#lastParty .fee-inner {
+  position: relative;
+}
+
+#lastParty .fee-outer {
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+}
+
+#lastParty .detail-inner {
+  height: 200px;
+  background-color: white;
+}
+
+.fee-inner button {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 18px;
+  border-radius: 30px;
+}
+
+.fee-inner p {
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.detail-outer {
+  margin: 0px 30px;
+}
+
+#lastParty .detail-outer h3 {
+  margin: 0px 0px;
+  padding: 20px 0px;
+  font-size: 23px;
+}
+
+p.detail-intro {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+p.dateTime {
+  font-size: 17px;
+  font-weight: 500;
+}
