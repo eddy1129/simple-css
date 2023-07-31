@@ -24,7 +24,7 @@ h5 {
   font-size: 23px;
 }
 
-#mainPage .intro_btn {
+.intro_btn {
   margin-top: 30px;
   background: #f05f5c;
   border-color: #f05f5c;
@@ -72,61 +72,85 @@ p#imgText {
   color: black;
 }
 #lastParty {
-  height: 100vh;
   background-color: rgb(248, 248, 248);
+  padding-bottom: 85px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0, 0.08);
 }
 
 #lastParty h3 {
   margin: 80px 0px;
 }
-#lastParty .partybg {
-  width: 300px;
-}
 
-#lastParty .fee-inner {
+.upper {
   position: relative;
 }
-
-#lastParty .fee-outer {
-  position: absolute;
-  bottom: 5px;
-  left: 30px;
-}
-
-#lastParty .detail-inner {
-  height: 200px;
-  background-color: white;
-}
-
-.fee-inner button {
-  border-color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 5px 18px;
-  border-radius: 30px;
-}
-
-.fee-inner p {
-  margin-top: 15px;
-  font-weight: 800;
-  font-size: 20px;
-}
-
-.detail-outer {
+#lastParty .upper img {
   max-width: 100%;
 }
 
-#lastParty .detail-outer h3 {
-  margin: 0px 0px;
-  padding: 20px 0px;
-  font-size: 23px;
+.upper_content {
+  position: absolute;
+  bottom: 5px;
+  left: 35px;
 }
 
-p.detail-intro {
-  font-size: 22px;
+.upper_content button {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding: 7px 21px;
+  margin-bottom: 13px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.upper_content h4 {
+  margin-bottom: 35px;
+}
+
+div.lower {
+  background-color: white;
+  padding: 18px 50px 35px 35px;
+}
+
+.lower h4 {
+  margin: 20px 0px;
+}
+
+.lower p {
+  margin-bottom: 5px;
   font-weight: 600;
 }
 
-p.dateTime {
-  font-size: 17px;
-  font-weight: 500;
+#email {
+  padding: 100px;
+  background-color: white;
+}
+
+#email h3 {
+  margin-bottom: 35px;
+}
+
+#email .intro_btn {
+  margin-top: 0px;
+  padding: 2px 39px;
+  font-size: 21px;
+}
+
+#email p {
+  color: #7f7f7f;
+}
+
+footer {
+  padding: 70px;
+}
+
+footer img {
+  padding-bottom: 35px;
+}
+
+footer ul {
+  float: left;
+  list-style: none;
+  padding: 0px;
+  margin-right: 50px;
 }
